@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    align-items: center;
+    background-color: rgb(39, 39, 116);
+    color: white;
+    padding: 0 10px 0 10px;
+}
+.searchIcon{
+    /* background-color: black; */
+    color: black;
+}
+.logo{
+    font-size: 30px;
+}
+.topbarLeft{
+    flex:2;
+
+}
+.topbarCenter{
+    flex: 3.5;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 5px 0 5px;
+    height: 30px;
+}
+.searchInput{
+    width: 400px;
+    border: none;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-style: italic ;
+    color: rgb(41, 40, 40);
+}
+.searchInput:focus{
+    outline: none;
+}
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+}
+.topbarRightCenter{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.topbarBadge{
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+    right: 10px;
+    width: 15px;
+    text-align: center;
+
+    font-size: 14px;
+    border-radius: 50%;
+}
+.profilePic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.topbarRightLeft{
+    display: flex;
+    gap: 15px;
+}

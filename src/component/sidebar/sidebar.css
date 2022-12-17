@@ -1,0 +1,39 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    /* background-color: yellowgreen; */
+    overflow: scroll;
+    position: sticky;
+    top: 50px;
+    scrollbar-width: 2px;
+    overflow-x: hidden;
+
+}
+.sidebarWrapper{
+    padding: 50px;
+
+}
+.sidebarWrapperListItem{
+    margin-bottom: 10px;
+}
+.sidebarWrapperList{
+    list-style: none;
+}
+.sidebarIcon{
+    margin-right: 20px;
+}
+.sidebarhr{
+    margin: 20px 0;
+}
+.sidebarbutton{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.sidebarFreindList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
